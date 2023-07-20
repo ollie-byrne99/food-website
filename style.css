@@ -1,0 +1,73 @@
+body {
+    background-color: #F0B5B3;
+}
+
+header {
+    font-size: 40px;
+    color: #313639;
+    background-color: #FE64A3;
+    text-align: center;
+    border-style: solid;
+    border-color: #313639;
+}
+
+.footer {
+    background-color: #FE64A3;
+    border-style: solid;
+    border-color: #313639;
+    margin-top: 30px;
+}
+
+.steps-list {
+    text-align: left;
+}
+
+.topnav {
+    background-color: #F0B5B3;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #313639;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #F6839C;
+    color: #313639;
+  }
+  
+  .topnav a.active {
+    background-color: #CB807D;
+    color: #313639;
+  }
+
+.paragraph { background-color: #F6839C;
+    text-align: left;
+    border-style: solid;
+    border-color: #313639;
+    border-width: 1px;
+}
+
+.image {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ingredient-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ingredient-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
